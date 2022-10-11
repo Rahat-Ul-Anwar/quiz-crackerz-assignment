@@ -1,0 +1,9 @@
+nav a {
+
+    margin-right: 15px;
+}
+
+.active{
+    background-color: orange;
+    padding: 5px 18px;
+}
