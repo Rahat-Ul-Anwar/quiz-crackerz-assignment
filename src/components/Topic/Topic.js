@@ -15,10 +15,11 @@ const Topic = ({ topic }) => {
     return (
         <div className='bg-slate-100 w-80 p-4'>
             <img src={logo} alt="" className='p-3' />
-            <h3 className='text-xl'>Total Question: {total}</h3>
+            <h3 className='text-2xl font-bold'>{name}</h3>
             
             <div className='flex items-center justify-between my-5'>
-            <h3 className='text-2xl font-bold'>{name}</h3>
+               
+                <h3 className='text-base'>Total Question: {total}</h3>
             <button onClick={handleClick} >Start Practice</button>
 
             </div>
