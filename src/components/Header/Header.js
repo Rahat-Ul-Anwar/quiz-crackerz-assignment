@@ -1,23 +1,19 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './Header.css';
- 
+import img from '../../images/side-img.png';
 
 const Header = () => {
     return (
-        <nav className='bg-amber-300 py-4 flex items-center justify-around'>
-
-            <div className='ml-10'>
-                <h3 className='text-2xl font-extrabold'>QuizApp</h3>
-                
+        <div className='grid grid-cols-2 gap-5 items-center justify-between mt-0 p-10 bg-yellow-100'>
+            <div>
+              <img src={img} alt="" srcset="" />
+                    
             </div>
-            <div className='mr-20'>
-                <NavLink className={({isActive})=> isActive ? 'active' : undefined } to="/">Home</NavLink>
-                <NavLink className={({isActive})=> isActive ? 'active' : undefined } to="/topics">Topics</NavLink>
-                <NavLink className={({isActive})=> isActive ? 'active' : undefined } to="/statistics">Statistics</NavLink>
-                <NavLink  className={({isActive})=> isActive ? 'active' : undefined }to="/blog">Blog</NavLink>
-             </div>
-        </nav>
+
+            <div>
+                <h2 className='text-2xl font-medium'> This is the quiz application app where you can find technology related quiz such as HTML, CSS, JavaScript, Git and many more. This app is very helpful for the beginners..</h2>
+            </div>
+             
+        </div>
     );
 };
 

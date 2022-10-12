@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Header from '../Header/Header';
 import Topic from '../Topic/Topic';
 
 const Home = () => {
@@ -7,8 +8,11 @@ const Home = () => {
     const topics = useLoaderData();
     
     return (
+
+     
         <div className='m-12'>
-             <div className='grid grid-cols-2 first-line:-rows-2 gap-8'>
+               <Header></Header>
+             <div className='grid grid-cols-3 first-line:-rows-2 gap-8'>
             {/* <h2 className='text-3xl font-bold'>Total Topics : {topics.data.length}</h2> */}
 
             {
