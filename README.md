@@ -2,7 +2,7 @@
 
  
 
-## Website Link : 
+## Website Link : https://quizapp69.netlify.app/
 
 In the project directory, you can run:
 
