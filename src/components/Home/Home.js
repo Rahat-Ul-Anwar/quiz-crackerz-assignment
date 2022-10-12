@@ -12,7 +12,7 @@ const Home = () => {
      
         <div className='m-12'>
                <Header></Header>
-             <div className='grid grid-cols-3 first-line:-rows-2 gap-8'>
+             <div className='grid sm:grid-cols-1 g-8 md:grid-cols-3 gap-8'>
             {/* <h2 className='text-3xl font-bold'>Total Topics : {topics.data.length}</h2> */}
 
             {

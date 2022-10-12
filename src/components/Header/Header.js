@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='grid grid-cols-2 gap-5 items-center justify-between mb-10 p-10 bg-yellow-100'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-5 items-center justify-between mb-10 p-10 bg-yellow-100'>
             <div className='side-img'>
               <img src={img} alt="" srcset="" />
                     
