@@ -6,15 +6,9 @@ import Questions from '../Questions/Questions';
 const TopicDetails = () => {
 
     const topic = useLoaderData();
-    //  console.log(topic)
-    const { name, questions} = topic.data;
-    // const options = questions;
-    // console.log(options)
-
-
-
+   
+    const { name, questions } = topic.data;
     
-
     return (
         <div>
 
